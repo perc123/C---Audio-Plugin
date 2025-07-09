@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="qGJeSv" name="C---Audio-Plugin" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="JWYfKL" name="C---Audio-Plugin">
+    <GROUP id="{3A3C815D-BE16-1876-5B8F-92D4C9038097}" name="Source">
+      <FILE id="tApSH6" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="RKWuAa" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="uhaIa2" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="B5dm2E" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="C---Audio-Plugin"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="C---Audio-Plugin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="libs/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="libs/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="libs/juce/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="libs/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="libs/juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="libs/juce/modules"/>
+        <MODULEPATH id="juce_core" path="libs/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="libs/juce/modules"/>
+        <MODULEPATH id="juce_events" path="libs/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="libs/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="libs/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="libs/juce/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+</JUCERPROJECT>
